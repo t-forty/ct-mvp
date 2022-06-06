@@ -1,0 +1,36 @@
+label > input {
+  margin: 0 5px;
+}
+#location {
+  /* width: 40vw; */
+  /* margin-left: 1vw; */
+}
+#location-text {
+  font-size: 0.75em;
+}
+.cancel, .submit{
+  margin-right: 5px;
+  text-transform: capitalize;
+  padding: 1px 5px;
+  border: 1px solid;
+}
+.cancel{
+  background: #ffe0e0;
+}
+.location-change {
+  font-size: 0.75em;
+  text-decoration: underline;
+  margin-left: 10vw;
+}
+.state{
+  width: 2em;
+}
+.submit{
+  background: #e3ffe3;
+}
+.zip{
+  width: 5em;
+}
+.zip-state-text {
+  border-bottom: 2px solid black;
+}

@@ -1,0 +1,41 @@
+.options {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh 4vw;
+  min-height: 41vh;
+}
+.option {
+  margin-bottom: 1em;
+}
+.option a{
+  text-decoration: underline;
+}
+.option p{
+  margin-bottom: 1vh;
+}
+.option h3,
+h4 {
+  color: #a8ecfd;
+  text-transform: capitalize;
+}
+.option p,
+a {
+  color: #fff;
+  font-size: 4vw;
+}
+
+@media screen and (min-width: 400px) {
+  .option p, a{
+    font-size: 3vw;
+  }
+}
+@media screen and (min-width: 700px) {
+  .option p, a{
+    font-size: 2vw;
+  }
+}
+@media screen and (min-width: 1050px) {
+  .option p, a{
+    font-size: 22px;
+  }
+}

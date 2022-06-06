@@ -1,0 +1,10 @@
+.copyright {
+  width: 100%;
+  background: #000000cf;
+  color: white;
+  font-size: 1.25vh;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

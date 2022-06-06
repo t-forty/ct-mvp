@@ -1,0 +1,11 @@
+.logo {
+  border-right: 1px solid cornflowerblue;
+  color: cornflowerblue;
+  font-weight: 900;
+  padding-right: 1em;
+}
+@media screen and (max-width: 310px) {
+  .logo{
+    padding-right: 5px;
+  }
+}

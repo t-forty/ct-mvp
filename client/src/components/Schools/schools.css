@@ -1,0 +1,96 @@
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+li:last-child span{
+    display: none;
+}
+#schools{
+    background: #fff;
+    color: black;
+    padding: 25px;
+}
+#schools h1{
+    font-size: 5vw;
+    margin-bottom: 4vh;
+}
+
+#schoolOccupations{
+
+}
+#schoolOccupations, .schoolAddress{
+    margin-bottom: 1vh;
+}
+#schoolOccupations h4{
+    font-weight: 700;
+    font-size: 4vw;
+}
+#schoolOccupationsList{
+    margin: 0 0 1vh 0;
+    list-style-type: square;
+    padding-left: 5vw;
+}
+#schoolOccupationsList li{
+    margin: 0.25vh 0;
+}
+
+#schoolOccupationsList li, .contacts{
+    font-size: 3.5vw;
+}
+.school{
+    border-bottom: 1px solid #cccccc;
+    color: #313131;
+    padding-bottom: 1vh;
+    margin-bottom: 2vh;
+}
+.school:last-child{
+    border: 0;
+}
+.schoolName, .schoolName:visited{
+    color: #313131;;
+    font-size: 5vw;
+    font-weight: 700;
+}
+.schoolUrl, .schoolUrl:visited{
+    color:#1976d2;
+}
+.phone{
+    margin-top: 1vh;
+}
+@media screen and (min-width: 700px) {
+    #schoolOccupationsList li, .contacts{
+        font-size: 2.5vw;
+    }
+    #schoolOccupations h4{
+        font-size: 3vw;
+    }
+    .schoolName{
+        font-size: 4vw;
+    }
+    .schoolUrl{
+        font-size: 3vw;
+    }
+
+}
+@media screen and (min-width: 1050px) {
+    #schools h1{
+        font-size: 50px;
+    }
+    #schoolOccupationsList{
+        padding-left: 40px;
+    }
+    #schoolOccupationsList li, .contacts{
+        font-size: 20px;
+    }
+    #schoolOccupations h4{
+        font-size: 20px;
+    }
+    .schoolName{
+        font-size: 30px;
+    }
+    .schoolUrl{
+        font-size: 20px;
+    }
+}

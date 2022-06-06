@@ -1,0 +1,62 @@
+/* <li class="logo"><a href="http://127.0.0.1:5500/static/ctrade/index.html">c+t</a></li>
+        <li class="nav-item right"><a href="http://127.0.0.1:5500/static/ctrade/coding.html">coding</a></li>
+        <li class="nav-item"><a href="http://127.0.0.1:5500/static/ctrade/trading.html">trades</a></li>
+        <li class="nav-item"><a href="#">contact</a></li>
+        <li class="nav-item"><a href="#">jobs</a></li>
+        <span class="profile material-icons-outlined md-18"> */
+header {
+  background-color: #000000cf;
+  color: white;
+  font-size: 0.75em;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  margin-right: 1em;
+}
+#main-menu {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-left: 2em;
+}
+#main-menu li {
+  cursor: pointer;
+  margin-right: 1em;
+  text-transform: capitalize;
+}
+#main-menu a {
+  color: white;
+  font-size: 1.75vh;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+#main-menu a:visited {
+  color: white;
+}
+/* .logo {
+  border-right: 1px solid cornflowerblue;
+  color: cornflowerblue;
+  font-weight: 900;
+  padding-right: 1em;
+} */
+.nav-item-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 50vw;
+}
+.nav-item {
+  font-size: 1.75vh;
+}
+.profile {
+  margin-right: 1em;
+}
+.right {
+  margin-left: auto;
+  margin-right: 1vw;
+}

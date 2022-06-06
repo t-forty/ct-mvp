@@ -1,0 +1,20 @@
+#SearchHeader {
+  display: flex;
+  background: antiquewhite;
+  font-size: 0.75em;
+  padding: 2vh 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#searchTitle{
+  text-align: center;
+}
+.search-option {
+  border-bottom: 2px solid black;
+  margin-right: 1vw;
+}
+span {
+  margin-right: 1vw;
+}

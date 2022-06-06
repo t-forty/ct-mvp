@@ -1,0 +1,23 @@
+#trades-content-container{
+  color: #fff;
+}
+#trades-list {
+  display: flex;
+  padding: 1vh 4vw 0 4vw;
+}
+#trades-list a {
+  color: darkgray;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+#trades-list a:visited {
+  color: darkgray;
+  text-decoration: none;
+}
+#trade-list-right {
+  margin-left: 2em;
+}
+#trade-list-right,
+#trade-list-left {
+  list-style-type: none;
+}

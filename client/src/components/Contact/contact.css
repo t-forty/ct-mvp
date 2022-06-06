@@ -1,0 +1,10 @@
+#contact-container{
+    display: flex;
+    background: #fff;
+    min-height: 86vh;
+    flex-direction: column;
+    padding: 2vh 20px;
+}
+#contact-container span{
+    margin-top: 0.5em;
+}

@@ -1,0 +1,68 @@
+#coding-content-container{
+  background: #353535;
+  color: #fff;
+  min-height: 43vh;
+  padding-top: 2vh;
+}
+#page-desc h1 {
+  text-transform: capitalize;
+}
+#occupations-description{
+  font-size: 4.5vw;
+}
+#occupations-list {
+  font-family: sans-serif;
+  list-style-type: none;
+  padding: 2vh 4vw 0;
+}
+#occupations-list div {
+  width: 85%;
+}
+#occupations-list span {
+  margin: 0 4vw 0 5px;
+}
+/* #occupations-list p {
+  font-size: 85%;
+} */
+#occupations-list h3 {
+  /* color: #2196f3; */
+  text-transform: capitalize;
+}
+#occupations-list li {
+  margin-bottom: 2vh;
+  width: 100%;
+  display: flex;
+}
+.codingField h4{
+  font-size: 20px;
+}
+.codingField p{
+  font-size: 18px;
+}
+.hero-img {
+  width: 100%;
+}
+@media screen and (min-width: 500px) {
+  #occupations-description{
+    font-size: 3.5vw;
+  }
+}
+@media screen and (min-width: 800px) {
+  #occupations-description{
+    font-size: 2.5vw;
+  }
+  .codingField h4{
+    font-size: 22px;
+  }
+  .codingField p{
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1050px) {
+  #occupations-description{
+    font-size: 25px;
+  }
+  #occupations-list{
+    padding: 2vh 50px 0;
+  }
+}

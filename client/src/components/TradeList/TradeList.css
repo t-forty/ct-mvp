@@ -1,0 +1,30 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.trade-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2vh 4vw;
+  width: 100%;
+}
+.trade-list h1 {
+  font-size: 3em;
+  width: 100%;
+  margin-left: 0.7em;
+}
+.trade-link {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: underline;
+  width: 40%;
+  min-width: 200px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+@media screen and (min-width: 1050px) {
+  .trade-list{
+    padding: 2vh 50px;
+  }
+}

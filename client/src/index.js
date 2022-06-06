@@ -2,12 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import {BrowserRouter} from 'react-router-dom'
+import store from './app/store'
+import { Provider } from 'react-redux';
 
+import  Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+<Provider store={store}>
+  <BrowserRouter>
+      <React.StrictMode>
+        <Header />
+        <App />
+        <Footer />
+      </React.StrictMode>
+  </BrowserRouter>
+</Provider>
+  ,
   document.getElementById('root')
 );
 

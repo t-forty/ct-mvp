@@ -1,0 +1,33 @@
+
+.jdw-article {
+  background: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.jdw-button-container {
+  display: flex;
+  justify-content: center;
+}
+.jdw-post {
+  margin-bottom: 25px;
+}
+  .jdw-post div{
+    margin-bottom: 1em;
+  }
+  .jdw-post ul{
+    padding: 0.5em 0 0 0;
+  }
+  .jdw-post h2{
+    margin: 0.5em 0;
+  }
+  
+.jdw-section {
+  text-align: justify;
+  padding: 4vw;
+  width: 85%;
+  font-size: 0.75em;
+}
+.jdw-section span {
+  display: none;
+}
